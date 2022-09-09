@@ -1,0 +1,18 @@
+{
+    "browserSyncOptions": {
+        "proxy": "central-georgia-cancer.local",
+        "notify": true,
+        "browser": ["google chrome"]
+	},
+    "browserSyncWatchFiles": [
+        "./**/*.php",
+        "./images/*.{png,jpg,gif}"
+    ],
+    "paths": {
+		"js": "./js",
+		"css": "./css",
+		"img": "./img",
+		"sass": "./sass",
+		"node": "./node_modules/"
+    }
+}

@@ -1,0 +1,60 @@
+// Colors
+$darklav: #734C9f;
+$viridian_green: #008C99;
+$prussian_blue: #002855;
+$dark_gray: #A8A99E;
+$ebony: #5F5F57;
+$coral_red: #F94234A;
+$pastel_orange: #FFB549;
+$gray: #707070;
+$body-color: #5F5F57;
+
+// General Styles
+$font-family-sans-serif: 'Montserrat', sans-serif;
+
+$font-family-isidora: 'Isidora', sans-serif;
+$font-family-isidora-alt: 'Isidora Alt', sans-serif;
+
+@font-face {
+    font-family: 'Isidora';
+    src: url("/wp-content/themes/cgcc-theme/fonts/isidora-black.woff") format("woff");
+    font-weight: 900;
+}
+@font-face {
+    font-family: 'Isidora';
+    src: url("/wp-content/themes/cgcc-theme/fonts/isidora-bold.woff") format("woff");
+    font-weight: 700;
+}
+@font-face {
+    font-family: 'Isidora';
+    src: url("/wp-content/themes/cgcc-theme/fonts/isidora-light.woff") format("woff");
+    font-weight: 300;
+}
+@font-face {
+    font-family: 'Isidora';
+    src: url("/wp-content/themes/cgcc-theme/fonts/isidora-semibold.woff") format("woff");
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'Isidora';
+    src: url("/wp-content/themes/cgcc-theme/fonts/isidora-regular.woff") format("woff");
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Isidora Alt';
+    src: url("/wp-content/themes/cgcc-theme/fonts/isidoraalt-bold.woff") format("woff");
+    font-weight: 700;
+}
+
+// Theme overrides
+$theme-colors: (
+        "primary": $viridian_green,
+        "secondary": $darklav,
+        "ebony": $ebony
+);
+$container-max-widths: (
+        sm: 540px,
+        md: 720px,
+        lg: 960px,
+        xl: 1300px
+) !default;
